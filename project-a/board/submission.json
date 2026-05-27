@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-05-27T05:19:00.839Z",
+  "groups": [
+    {
+      "id": "678d5b48-c3f3-4a21-abe0-974da6597b34",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "0627cfa5-3107-462f-ae81-f69c68620006",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "18b8c77a-10df-467d-a4de-41401a8aeb57",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "The original unclear requirement: A study of freshman found that \"the course catalog is ugly.\" \nReason for the ambiguity: The term \"ugly\" is subjective, with no defined technical criterion for measurement. Specific graphical user interface (UI/UX) standards are required for the system's design and testing. \nClarification is needed. The school's design principles, or specific needs like as responsive layout and WCAG-standard contrast, must be defined to ensure readability.",
+    "ambiguity2": "Original, confusing request: The Head of Counseling preferred \"if a student has special permission.\" \nThe concept of \"special permission\" is ambiguous because there is no clearly established method. It is unclear what documents/evidence the system need to check, who grants this authorization, and whether the approval workflow occurs on the system or via external paper documents. \nClarification is needed. The types of valid criteria for providing \"special permission\" (e.g., final-year students who require immediate graduation) and the system-based approval process for granting this permission must be explicitly stated.",
+    "conflictSolution": "Conflict identified: The Head of Advising wants 4-year long-term planning regardless of course availability, whereas the Registrar wants to prevent students from adding any full courses via a live database link.\n\nProposed Resolution: Use a dual-mode roadmap: Planning Mode allows for unrestricted long-term course mapping for future semesters, while Active Registration Mode connects to the live database for the current semester to flag full classes and suggest alternative open slots without disrupting the plan.",
+    "nfr1": "Privacy: Student schedule information is highly sensitive. The system must enforce stringent access control, guaranteeing that no student can view or access another student's academic plan or personal schedule.",
+    "nfr2": "Auditing: Every time an advisor executes a manual override on course prerequisites, the system must automatically generate a full, immutable audit report that includes the adviser's ID, timestamp, and justification.",
+    "nfr3": "Usability & Interactions: To address the freshmen's primary complaint with the historic catalog, the new roadmap interface must enable intuitive interactive elements, notably the ability to drag and drop course modules straight into a visual calendar format."
+  }
+}
