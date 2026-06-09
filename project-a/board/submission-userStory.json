@@ -1,0 +1,70 @@
+{
+  "savedAt": "2026-06-09T06:20:17.396Z",
+  "groups": [
+    {
+      "id": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "ca2db21c-c10f-42ed-9842-e1e388139b21",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "da1f93de-a2be-4d7e-a777-3d82b625078c",
+      "title": "Clarify Course Catalog Usability Requirements",
+      "description": "Description\nClarify what stakeholders mean by \"the course catalog is ugly\" and define measurable usability requirements.\n\nAcceptance Criteria\nVisual design requirements documented.\nNavigation requirements documented.\nAccessibility requirements documented.\nStakeholder approval obtained.",
+      "groupId": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "8c9474db-009b-4e80-ba78-fe3de0c87ca5",
+      "title": "Clarify Early-Morning Warning Behavior",
+      "description": "Description\nDetermine how course time warnings should work and whether they are configurable.\n\nAcceptance Criteria\nWarning trigger conditions defined.\nUser customization options specified.\nWarning workflow approved.",
+      "groupId": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "9b78b742-dd52-42b9-8f3a-57243729e861",
+      "title": "Resolve Roadmap Planning vs Live Enrollment Conflict",
+      "description": "Description\nDefine how long-term planning and live enrollment validation coexist.\n\nAcceptance Criteria\nPlanning Mode defined.\nRegistration Mode defined.\nFull-course handling documented.\nStakeholder agreement obtained.",
+      "groupId": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "b0afa981-85f1-4ee2-b5a4-7a6cff9c1646",
+      "title": "US1: Automatic Prerequisite Validation",
+      "description": "As a Student, I want the system to automatically check course prerequisites, so that I can avoid selecting courses that I am not eligible to take.\n\nAcceptance Criteria: \n\nThe system checks prerequisites when a course is selected.\nStudents cannot add a course if prerequisites are not met.\nThe system displays the missing prerequisite(s).\nThe course can be added only when all prerequisites are satisfied.",
+      "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
+  "analysis": {
+    "ambiguity1": "\"The course catalog is ugly\" : This requirement is ambiguous because the term \"ugly\" is subjective and does not provide measurable criteria. It is unclear whether stakeholders want changes to the visual design, navigation, readability, search functionality, or overall user experience.",
+    "ambiguity2": "\"I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.\" : This requirement is vague because it is based on an individual preference. It does not specify whether the warning should apply to all students, whether students can customize the warning time, or whether the warning is mandatory or optional.",
+    "conflictSolution": "The Registrar states that students should not be able to add full classes to their roadmap because the system must use live enrollment data. However, the Head of Advising wants students to plan their academic roadmap up to four years in advance, even when future course availability is unknown.\nProposed Solution:\nThe system should support two planning modes. For current and upcoming semesters, course availability should be validated using live enrollment data and full classes should be clearly marked. For long-term planning, students may add future courses regardless of current availability, but the system should display them as \"planned\" and indicate that future seat availability is not guaranteed.",
+    "nfr1": "Security\nThe system must ensure that students can only view and modify their own academic plans and schedules.",
+    "nfr2": "Auditability\nThe system must record and maintain logs of all advisor prerequisite overrides, including the advisor identity, timestamp, and reason for the override.",
+    "nfr3": "Usability\nThe system should provide an intuitive drag-and-drop interface that allows students to easily build and visualize their academic roadmap."
+  }
+}
