@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T04:30:21.792Z",
+  "savedAt": "2026-06-09T04:31:53.560Z",
   "groups": [
     {
       "id": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "\"The course catalog is ugly\" : This requirement is ambiguous because the term \"ugly\" is subjective and does not provide measurable criteria. It is unclear whether stakeholders want changes to the visual design, navigation, readability, search functionality, or overall user experience.",
     "ambiguity2": "\"I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.\" : This requirement is vague because it is based on an individual preference. It does not specify whether the warning should apply to all students, whether students can customize the warning time, or whether the warning is mandatory or optional.",
-    "conflictSolution": "",
+    "conflictSolution": "The Registrar states that students should not be able to add full classes to their roadmap because the system must use live enrollment data. However, the Head of Advising wants students to plan their academic roadmap up to four years in advance, even when future course availability is unknown.\nProposed Solution:\nThe system should support two planning modes. For current and upcoming semesters, course availability should be validated using live enrollment data and full classes should be clearly marked. For long-term planning, students may add future courses regardless of current availability, but the system should display them as \"planned\" and indicate that future seat availability is not guaranteed.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
