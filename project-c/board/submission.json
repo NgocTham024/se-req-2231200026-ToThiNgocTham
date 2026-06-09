@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T07:02:41.257Z",
+  "savedAt": "2026-06-09T07:06:36.444Z",
   "groups": [
     {
       "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
@@ -32,6 +32,16 @@
       "id": "76fe0284-dad3-4a10-b6c5-d3dc2406f869",
       "title": "US002 – Allergy Filtering (Student)",
       "description": "As a Student, I want to filter menu items based on allergens, so that I can avoid foods that are unsafe for me.\n\nAcceptance Criteria:\nUser can select allergen preferences (e.g., peanuts)\nItems containing allergens are hidden completely\nFilter applies across full menu",
+      "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "ae2710de-d06f-41fe-8ee3-178be3edae65",
+      "title": "US003 – View Order Status (Student)",
+      "description": "As a Student, I want to track my order status, so that I know when my food is ready.\n\nAcceptance Criteria:\nSystem shows order status (pending, preparing, ready)\nStatus updates in real-time\nUser receives notification when order is ready",
       "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
       "status": "todo",
       "type": "User Story",
