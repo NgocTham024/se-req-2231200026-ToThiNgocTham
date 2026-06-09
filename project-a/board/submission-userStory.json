@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:24:05.454Z",
+  "savedAt": "2026-06-09T06:26:25.838Z",
   "groups": [
     {
       "id": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
@@ -62,6 +62,16 @@
       "id": "44f02b01-2fc9-441f-92e3-64b9d440849e",
       "title": "US2: Drag-and-Drop Academic Roadmap",
       "description": "As a Student, I want to drag and drop courses into my academic roadmap, so that I can easily plan my path to graduation.\n\nAcceptance Criteria: \nStudents can drag courses into a semester.\nStudents can move courses between semesters.\nChanges are saved automatically.\nThe updated roadmap is displayed immediately.",
+      "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "77f384c8-92c4-4ee5-a06b-32de88739dcc",
+      "title": "US3: Early-Morning Course Warning",
+      "description": "As a Student, I want to receive a warning when selecting an 8:00 AM class, so that I can make a more informed scheduling decision.\n\nAcceptance Criteria: \nA warning message appears when an 8:00 AM course is selected.\nThe warning is displayed before the course is added.\nStudents can continue after acknowledging the warning.\nThe warning does not prevent course selection.",
       "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
       "status": "todo",
       "type": "User Story",
