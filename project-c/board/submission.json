@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:53:06.836Z",
+  "savedAt": "2026-06-09T07:02:41.257Z",
   "groups": [
     {
       "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
@@ -22,6 +22,16 @@
       "id": "c8f61e84-fcc7-4dc2-a4c5-e907af9b66d2",
       "title": "US001 – Place Order (Student)",
       "description": "As a Student, I want to place food orders on my phone, so that I can avoid waiting in long queues.\n\nAcceptance Criteria:\nUser can browse menu on mobile\nUser can place an order successfully\nOrder is sent to kitchen system in real-time",
+      "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "76fe0284-dad3-4a10-b6c5-d3dc2406f869",
+      "title": "US002 – Allergy Filtering (Student)",
+      "description": "As a Student, I want to filter menu items based on allergens, so that I can avoid foods that are unsafe for me.\n\nAcceptance Criteria:\nUser can select allergen preferences (e.g., peanuts)\nItems containing allergens are hidden completely\nFilter applies across full menu",
       "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
       "status": "todo",
       "type": "User Story",
