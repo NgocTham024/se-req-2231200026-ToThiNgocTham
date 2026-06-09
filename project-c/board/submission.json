@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T05:38:32.510Z",
+  "savedAt": "2026-06-09T05:41:25.082Z",
   "groups": [
     {
       "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
@@ -21,7 +21,7 @@
   "analysis": {
     "ambiguity1": "\"We need to reduce the queue.\" : This requirement is vague because it does not define what \"reduce\" means in measurable terms. It is unclear whether the goal is to reduce waiting time, number of people in line, or average service time, and no target metric is provided.",
     "ambiguity2": "\"Send push notifications at 11:30 AM offering a discount.\" : This requirement is ambiguous because it does not specify user preferences, notification frequency limits, opt-out options, or whether notifications apply to all users or selected groups.",
-    "conflictSolution": "",
+    "conflictSolution": "Conflict:\nThe Chef needs to mark items as \"Sold Out\" instantly, but the Cafeteria Manager wants real-time ordering from mobile devices. There is a risk that students may still order items that are no longer available.\n\nProposed Solution:\nThe system should implement real-time inventory synchronization. Once an item is marked \"Sold Out\", it must immediately be removed from the ordering interface. Any pending orders for that item should be blocked and users should be notified instantly.",
     "nfr1": "",
     "nfr2": "",
     "nfr3": ""
