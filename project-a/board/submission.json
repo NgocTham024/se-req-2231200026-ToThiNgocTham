@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T04:27:10.205Z",
+  "savedAt": "2026-06-09T04:30:21.792Z",
   "groups": [
     {
       "id": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
@@ -20,7 +20,7 @@
   "tickets": [],
   "analysis": {
     "ambiguity1": "\"The course catalog is ugly\" : This requirement is ambiguous because the term \"ugly\" is subjective and does not provide measurable criteria. It is unclear whether stakeholders want changes to the visual design, navigation, readability, search functionality, or overall user experience.",
-    "ambiguity2": "",
+    "ambiguity2": "\"I want the app to warn me if I am choosing a class that starts at 8:00 AM because I will definitely oversleep.\" : This requirement is vague because it is based on an individual preference. It does not specify whether the warning should apply to all students, whether students can customize the warning time, or whether the warning is mandatory or optional.",
     "conflictSolution": "",
     "nfr1": "",
     "nfr2": "",
