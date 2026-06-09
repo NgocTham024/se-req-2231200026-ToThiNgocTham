@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:45:23.218Z",
+  "savedAt": "2026-06-09T06:46:28.187Z",
   "groups": [
     {
       "id": "64743a89-d683-40ee-baba-d4dac43dc7c8",
@@ -42,6 +42,16 @@
       "id": "dd7214ab-1cb5-4f10-91e5-23edc8f01887",
       "title": "US003 - Create Auction Listing",
       "description": "As a Student,\nI want to create auction-based listings,\nso that buyers can compete for my item.\n\nAcceptance Criteria:\n- Sellers can choose auction mode.\n- Sellers can define auction duration.\n- The highest bidder is identified when the auction ends.",
+      "groupId": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "1741cadd-86a5-4f7c-9f10-797ec63660fb",
+      "title": "US004 - Safe Exchange Zone Selection",
+      "description": "As a Student,\nI want to select a Safe Exchange Zone before chatting,\nso that item exchanges occur in secure locations.\n\nAcceptance Criteria:\n- A Safe Exchange Zone must be selected.\n- Chat remains disabled until a zone is selected.\n- Approved exchange zones are displayed to users.",
       "groupId": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
       "status": "todo",
       "type": "User Story",
