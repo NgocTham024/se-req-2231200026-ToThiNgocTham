@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T07:06:36.444Z",
+  "savedAt": "2026-06-09T07:07:51.172Z",
   "groups": [
     {
       "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
@@ -42,6 +42,16 @@
       "id": "ae2710de-d06f-41fe-8ee3-178be3edae65",
       "title": "US003 – View Order Status (Student)",
       "description": "As a Student, I want to track my order status, so that I know when my food is ready.\n\nAcceptance Criteria:\nSystem shows order status (pending, preparing, ready)\nStatus updates in real-time\nUser receives notification when order is ready",
+      "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "e242d171-02cb-4e68-9517-f37649c12ef8",
+      "title": "US004 – Mark Item Sold Out (Staff)",
+      "description": "As a staff, I want to mark items as sold out instantly, so that customers do not order unavailable food.\n\nAcceptance Criteria:\nStaff can mark item as sold out\nItem disappears from menu immediately\nSystem prevents new orders for that item",
       "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
       "status": "todo",
       "type": "User Story",
