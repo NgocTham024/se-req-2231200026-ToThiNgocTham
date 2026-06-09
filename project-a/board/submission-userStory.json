@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:26:25.838Z",
+  "savedAt": "2026-06-09T06:34:11.222Z",
   "groups": [
     {
       "id": "f9e684bd-7c6b-4e10-a156-b2b7095dbbe7",
@@ -75,6 +75,56 @@
       "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
       "status": "todo",
       "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "6a8b1ac3-cf7c-4886-84a3-e8571e783d53",
+      "title": "US4: Live Course Availability",
+      "description": "As a Student, I want to see real-time course availability, so that I can avoid planning courses that are already full.\n\nAcceptance Criteria: \nThe system retrieves enrollment data from the live database.\nAvailable seats are displayed for each course.\nFull courses are clearly marked.\nStudents cannot add full courses during active registration.",
+      "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "46dc8ab7-0e84-4cf9-bdc8-fb5b8fad26e9",
+      "title": "US5: Advisor Prerequisite Override",
+      "description": "As an Academic Advisor (Staff), I want to override prerequisite restrictions for approved students, so that special academic cases can be accommodated.\n\nAcceptance Criteria: \nOnly authorized advisors can perform overrides.\nA justification must be entered before submission.\nThe override is applied successfully.\nThe system records the advisor ID, timestamp, and reason.",
+      "groupId": "250612c1-3ed1-4ae5-885a-4a97b43f257f",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "fa91df0e-16db-47b1-850e-2d793b918319",
+      "title": "NFR Epic 1: Security\nThe system must ensure that students can only view and modify",
+      "description": "Security\nThe system must ensure that students can only view and modify their own academic plans and schedules.",
+      "groupId": "ca2db21c-c10f-42ed-9842-e1e388139b21",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "dc90ab50-3d19-4b33-82d6-caf66d88150c",
+      "title": "NFR Epic 2: Auditability\nThe system must record and maintain logs of all advisor p",
+      "description": "Auditability\nThe system must record and maintain logs of all advisor prerequisite overrides, including the advisor identity, timestamp, and reason for the override.",
+      "groupId": "ca2db21c-c10f-42ed-9842-e1e388139b21",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "7e195663-4ff7-4c0a-84f4-de1be34fb79f",
+      "title": "NFR Epic 3: Usability\nThe system should provide an intuitive drag-and-drop interfa",
+      "description": "Usability\nThe system should provide an intuitive drag-and-drop interface that allows students to easily build and visualize their academic roadmap.",
+      "groupId": "ca2db21c-c10f-42ed-9842-e1e388139b21",
+      "status": "todo",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
