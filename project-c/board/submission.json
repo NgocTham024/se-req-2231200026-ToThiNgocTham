@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-09T05:35:44.583Z",
+  "groups": [
+    {
+      "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "5e13417e-a07d-41c9-8b0b-475375eadd23",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "\"We need to reduce the queue.\" : This requirement is vague because it does not define what \"reduce\" means in measurable terms. It is unclear whether the goal is to reduce waiting time, number of people in line, or average service time, and no target metric is provided.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
