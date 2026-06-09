@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T04:53:44.871Z",
+  "savedAt": "2026-06-09T04:55:45.826Z",
   "groups": [
     {
       "id": "64743a89-d683-40ee-baba-d4dac43dc7c8",
@@ -22,8 +22,8 @@
     "ambiguity1": "\"This needs to be exclusive.\": The term \"exclusive\" is vague because it does not clearly define the eligibility requirements beyond restricting access. It is unclear whether exclusivity means only current students, alumni, faculty, or anyone with a .edu email address.",
     "ambiguity2": "\"I want to be able to auction items, not just set a fixed price.\": The auction requirement lacks important details such as bidding rules, auction duration, minimum bid increments, reserve prices, and how a winning bidder is selected.",
     "conflictSolution": "Conflict:\nThe Student Union President wants the marketplace to collect a 2% transaction fee to support student clubs. However, the University Legal Team states that the university cannot process payments or handle money.\n\nProposed Solution:\nThe application should not process payments or collect transaction fees directly. Students should complete payments externally using cash or third-party payment services such as Venmo. If funding is needed for student clubs, alternative methods such as voluntary donations or separate university-approved fees should be considered outside the marketplace platform.",
-    "nfr1": "",
-    "nfr2": "",
-    "nfr3": ""
+    "nfr1": "Security\nOnly users with verified .edu email addresses may create accounts and access the marketplace.",
+    "nfr2": "Safety\nThe system must require users to select an approved Safe Exchange Zone before initiating communication regarding a transaction.",
+    "nfr3": "Usability\nThe application should support barcode scanning to automatically populate textbook information and reduce manual data entry."
   }
 }
