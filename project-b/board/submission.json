@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:47:04.440Z",
+  "savedAt": "2026-06-09T06:49:21.751Z",
   "groups": [
     {
       "id": "64743a89-d683-40ee-baba-d4dac43dc7c8",
@@ -65,6 +65,36 @@
       "groupId": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
       "status": "todo",
       "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "ed478fd4-32eb-4947-88b3-015c236de75e",
+      "title": "NFR Epic 1: Security",
+      "description": "Security\nOnly users with verified .edu email addresses may create accounts and access the marketplace.",
+      "groupId": "897d38a8-025c-4afa-9b8b-a70823847320",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "35244be1-94ae-484a-a760-57f8556242f8",
+      "title": "NFR Epic 2: Safety",
+      "description": "Safety\nThe system must require users to select an approved Safe Exchange Zone before initiating communication regarding a transaction.",
+      "groupId": "897d38a8-025c-4afa-9b8b-a70823847320",
+      "status": "todo",
+      "type": "Epic",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "821a7f7a-c4b3-40ad-8309-5d634dfd7256",
+      "title": "NFR Epic 3: Usability",
+      "description": "Usability\nThe application should support barcode scanning to automatically populate textbook information and reduce manual data entry.",
+      "groupId": "897d38a8-025c-4afa-9b8b-a70823847320",
+      "status": "todo",
+      "type": "Epic",
       "priority": "Medium",
       "owner": ""
     }
