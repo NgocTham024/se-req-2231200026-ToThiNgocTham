@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T06:46:28.187Z",
+  "savedAt": "2026-06-09T06:47:04.440Z",
   "groups": [
     {
       "id": "64743a89-d683-40ee-baba-d4dac43dc7c8",
@@ -52,6 +52,16 @@
       "id": "1741cadd-86a5-4f7c-9f10-797ec63660fb",
       "title": "US004 - Safe Exchange Zone Selection",
       "description": "As a Student,\nI want to select a Safe Exchange Zone before chatting,\nso that item exchanges occur in secure locations.\n\nAcceptance Criteria:\n- A Safe Exchange Zone must be selected.\n- Chat remains disabled until a zone is selected.\n- Approved exchange zones are displayed to users.",
+      "groupId": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    },
+    {
+      "id": "c5dc3416-2100-44ee-925e-05f363b3232e",
+      "title": "US005 - Manage Safe Exchange Zones",
+      "description": "As a Campus Administrator,\nI want to manage Safe Exchange Zones,\nso that students always have access to approved meeting locations.\n\nAcceptance Criteria:\n- Administrators can add new zones.\n- Administrators can edit existing zones.\n- Administrators can remove inactive zones.\n- Changes are visible to users immediately.",
       "groupId": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
       "status": "todo",
       "type": "User Story",
