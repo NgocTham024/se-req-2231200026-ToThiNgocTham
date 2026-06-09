@@ -1,0 +1,29 @@
+{
+  "savedAt": "2026-06-09T04:46:43.212Z",
+  "groups": [
+    {
+      "id": "64743a89-d683-40ee-baba-d4dac43dc7c8",
+      "name": "Blockers",
+      "color": "#2563eb"
+    },
+    {
+      "id": "f478bcb5-7bcc-4739-b4cb-d04734c0325b",
+      "name": "Standard Work",
+      "color": "#059669"
+    },
+    {
+      "id": "897d38a8-025c-4afa-9b8b-a70823847320",
+      "name": "Minors",
+      "color": "#d97706"
+    }
+  ],
+  "tickets": [],
+  "analysis": {
+    "ambiguity1": "\"This needs to be exclusive.\": The term \"exclusive\" is vague because it does not clearly define the eligibility requirements beyond restricting access. It is unclear whether exclusivity means only current students, alumni, faculty, or anyone with a .edu email address.",
+    "ambiguity2": "",
+    "conflictSolution": "",
+    "nfr1": "",
+    "nfr2": "",
+    "nfr3": ""
+  }
+}
