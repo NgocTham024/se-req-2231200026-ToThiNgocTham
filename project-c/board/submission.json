@@ -1,5 +1,5 @@
 {
-  "savedAt": "2026-06-09T05:42:28.875Z",
+  "savedAt": "2026-06-09T06:53:06.836Z",
   "groups": [
     {
       "id": "3c84e991-1dc9-46bc-9130-c97a0a628f88",
@@ -17,7 +17,18 @@
       "color": "#d97706"
     }
   ],
-  "tickets": [],
+  "tickets": [
+    {
+      "id": "c8f61e84-fcc7-4dc2-a4c5-e907af9b66d2",
+      "title": "US001 – Place Order (Student)",
+      "description": "As a Student, I want to place food orders on my phone, so that I can avoid waiting in long queues.\n\nAcceptance Criteria:\nUser can browse menu on mobile\nUser can place an order successfully\nOrder is sent to kitchen system in real-time",
+      "groupId": "9a559e1a-78d3-489f-b7ed-9c657cb8de72",
+      "status": "todo",
+      "type": "User Story",
+      "priority": "Medium",
+      "owner": ""
+    }
+  ],
   "analysis": {
     "ambiguity1": "\"We need to reduce the queue.\" : This requirement is vague because it does not define what \"reduce\" means in measurable terms. It is unclear whether the goal is to reduce waiting time, number of people in line, or average service time, and no target metric is provided.",
     "ambiguity2": "\"Send push notifications at 11:30 AM offering a discount.\" : This requirement is ambiguous because it does not specify user preferences, notification frequency limits, opt-out options, or whether notifications apply to all users or selected groups.",
